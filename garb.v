@@ -13,6 +13,9 @@ module garb (  /*AUTOARG*/ );
   input rst_n;  // Asynchronous reset active low
 
   output [5:0] unused;
+
+
+  input [4:0] dontcare;
   
 
   //=============================================================================
